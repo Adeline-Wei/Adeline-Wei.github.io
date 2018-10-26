@@ -248,3 +248,12 @@ a.sidebar-nav-item:focus {
 .theme-base-0f .related-posts li a:hover {
   color: #8f5536;
 }
+
+/* Medium Persian Blue  */
+.theme-base-18 .sidebar {
+  background-color: #006AA7;
+}
+.theme-base-18 .content a,
+.theme-base-18 .related-posts li a:hover {
+  color: #006AA7;
+}
