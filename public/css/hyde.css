@@ -80,7 +80,7 @@ html {
   color: #fff;
   margin-top: 0;
   font-family: "Abril Fatface", serif;
-  font-size: 3.25rem;
+  font-size: 2.0rem;
 }
 
 /* Sidebar nav */
@@ -256,4 +256,16 @@ a.sidebar-nav-item:focus {
 .theme-base-18 .content a,
 .theme-base-18 .related-posts li a:hover {
   color: #006AA7;
+}
+
+/*
+ * Customized css
+ *
+ */
+.links {
+  text-align: center;
+}
+.links li {
+  list-style: none;
+  display: inline-block;
 }
