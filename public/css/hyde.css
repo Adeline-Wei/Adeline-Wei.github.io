@@ -257,15 +257,3 @@ a.sidebar-nav-item:focus {
 .theme-base-18 .related-posts li a:hover {
   color: #006AA7;
 }
-
-/*
- * Customized css
- *
- */
-.links {
-  text-align: center;
-}
-.links li {
-  list-style: none;
-  display: inline-block;
-}

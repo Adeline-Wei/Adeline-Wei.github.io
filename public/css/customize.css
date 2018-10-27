@@ -1,0 +1,8 @@
+/* Links at the bottom of sidebar */
+.links {
+  text-align: center;
+}
+.links li {
+  list-style: none;
+  display: inline-block;
+}
