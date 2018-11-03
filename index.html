@@ -12,9 +12,17 @@ title: Home
       </a>
     </h1>
 
-    <span class="post-date">{{ post.date | date_to_string }}</span>
-
-    {{ post.content }}
+    <div class="post-info">
+      <i class="fas fa-calendar-alt"></i>
+      <span class="post-date">{{ post.date | date: '%d %B, %Y' }}</span>
+      <i class="fas fa-box"></i>
+      <span></span>
+    </div>
+    
+    
+    <div class="post-excerpt">{{ post.excerpt }}</div>
+    <!-- {{ post.content }} -->
+  
   </div>
   {% endfor %}
 </div>

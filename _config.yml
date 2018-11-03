@@ -5,6 +5,8 @@ highlighter:      rouge
 # Permalinks
 permalink:        pretty
 
+encoding:         utf-8
+
 # Setup
 title:            LinHung Wei
 tagline:          'Human'
