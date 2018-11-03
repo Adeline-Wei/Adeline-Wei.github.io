@@ -19,3 +19,21 @@
   font-size: 0.8rem;
   color: #9a9a9a;
 }
+
+/* NotoSansCJKtc-Medium */
+@font-face {
+  font-family: 'NotoSansCJKtc';
+  font-style: normal;
+  font-weight: 700;
+  src: url('../webfonts/NotoSansCJKtc-Medium.otf') format("opentype");
+  unicode-range: U+4E00-9FA5;
+}
+
+/* NotoSansCJKtc-DemiLight */
+@font-face {
+  font-family: 'NotoSansCJKtc';
+  font-style: normal;
+  font-weight: 400;
+  src: url('../webfonts/NotoSansCJKtc-DemiLight.otf') format("opentype");
+  unicode-range: U+4E00-9FA5;
+}
