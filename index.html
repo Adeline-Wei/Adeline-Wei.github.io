@@ -24,7 +24,10 @@ title: Home
     <!-- {{ post.content }} -->
 
   </div>
-  <div class="post-info"><i class="fas fa-comments"></i><a href="{{ post.url }}#disqus_thread" data-disqus-identifier="{{ post.url }}"></a></div>
+  <div class="post-info">
+    <i class="fas fa-comments"></i>
+    <a href="{{ post.url }}#disqus_thread" data-disqus-identifier="{{ post.url }}"></a>
+  </div>
   <hr>
   {% endfor %}
 </div>
