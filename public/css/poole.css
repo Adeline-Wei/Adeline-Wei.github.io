@@ -339,12 +339,13 @@ tbody tr:nth-child(odd) th {
 .post-title,
 .post-title a {
   color: #303030;
+  text-decoration: none;
 }
 .page-title,
 .post-title {
   margin-top: 0;
 }
-
+`
 /* Meta data line below post title */
 .post-date {
   display: block;
@@ -363,7 +364,7 @@ tbody tr:nth-child(odd) th {
   padding-left: 0;
   list-style: none;
 }
-.related-posts h3 {
+.related-posts h4 {
   margin-top: 0;
 }
 .related-posts li small {
