@@ -12,7 +12,7 @@ title:            LinHung Wei
 tagline:          'Human'
 description:      'I write things.'
 url:              https://adeline-wei.github.io
-baseurl:          /
+baseurl:          ''
 
 author:
   name:           'LinHung Wei'

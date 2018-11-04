@@ -7,9 +7,10 @@
 *  LEARN WHY DEFINING THESE VARIABLES IS IMPORTANT: https://disqus.com/admin/universalcode/#configuration-variables*/
 
 var disqus_config = function () {
-	// this.page.url = '{{ page.url }}';  // Replace PAGE_URL with your page's canonical URL variable
-	// this.page.identifier = 'https://github.com/Adeline-Wei{{ page.url }}#disqus_thread'; // Replace PAGE_IDENTIFIER with your page's unique identifier variable
-	this.page.identifier = '{{ page.url }}';
+	// this.page.url = 'https://adeline-wei.github.io';  // Replace PAGE_URL with your page's canonical URL variable
+	this.page.url = PAGE_URL;
+	// this.page.url = '{{ site.url }}/{{ page.url }}';
+	this.page.identifier = '{{ page.url }}'; // Replace PAGE_IDENTIFIER with your page's unique identifier variable
 };
 
 (function() { // DON'T EDIT BELOW THIS LINE
@@ -20,6 +21,5 @@ s.setAttribute('data-timestamp', +new Date());
 })();
 </script>
 
-<!-- <script id="dsq-count-scr" src="//weiadeline.disqus.com/count.js" async></script> -->
 <noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
 {% endif %}
